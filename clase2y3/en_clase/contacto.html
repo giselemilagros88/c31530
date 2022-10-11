@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en Clase</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="" alt="logo">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="nosotros.html">nosotros</a>
+            <a href="masInfo.html">Más Info</a>
+            <a href="contacto.html">Contacto</a>
+    
+        </nav>
+   </header>
+   <br>
+<main>
+    <section>
+        <form action="" method="post" enctype="multipart/form"> 
+            <!--
+            <fieldset>
+               <legend>Datos Personales</legend>
+               <label for="">Ingrese su Nombre</label>
+               <input type="text" placeholder="Nombre">
+
+            </fieldset>
+            -->
+            <div>
+                <div>
+                    <input type="text" placeholder="Ingrese su Nombre">
+                    <input type="text" placeholder="Ingrese su Apellido"> 
+                  </div>
+                  <br>
+                 <div>
+                    <input type="email" placeholder="Ingrese su Mail">
+                 </div>
+                 <br>
+                 <div>
+                    <input type="password" placeholder="Ingrese su Contraseña">
+                 </div>
+                 <br>
+                 <div>
+                     <label for="">Acepto terminos y condiciones</label>
+                     <input type="checkbox" value ="yes" name="acepta">
+                     <!--
+                     <label for="">No acepta</label>
+                     <input type="checkbox" value ="no" name="acepta">
+                     <label for="">No responde</label>
+                     <input type="checkbox" value ="sinvalor" name="acepta">
+                     -->
+                 </div>
+                 <br>
+                 <hr>
+                 <div>
+                    <label for="color">que color prefieres?</label>
+                    <div>
+                    <label for="colorRojo">Rojo</label>
+                    <input type="radio" name="color" id="colorRojo">
+                    <label for="colorNegro">Negro</label>
+                    <input type="radio" name="color" id="colorNegro">
+                   </div>
+                  
+                 </div>
+                 <br>
+                 <div>
+                     <label for="talles">Seleccione un talle</label>
+                    <select name="talles">
+                        <option value="L">Large</option>
+                        <option value="M">Medium</option>
+                        <option value="S">Small</option>
+                    </select>
+                 </div>
+                 <br>
+                 <div>
+                     <input type="submit" value="Aceptar">
+                     <input type="reset" value="Limpiar">
+                     <input type="button" value="esto es un boton sin accion">
+                 </div>
+
+            </div>
+          
+           
+           
+            
+
+        </form>
+    </section>
+</main>
+   
+    
+</body>
+</html>

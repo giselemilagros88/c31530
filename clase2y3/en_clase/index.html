@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML</title>
+        <link rel="stylesheet" href="estilos/estilos.css">
+    </head>
+    <body>
+       <header>
+           <img src="../assets/img/capitan_america.jpg" alt="esto es un logo..." width="100">
+           <img src="https://picsum.photos/200/300" alt="imagen random">
+           <img src="https://picsum.photos/200/300" alt="imagen random">
+           <img src="https://picsum.photos/200/300" alt="imagen random">
+           <!--
+           <img src="https://picsum.photos/200/300?random=1">
+           <img src="https://picsum.photos/200/300?random=2">
+           -->
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="nosotros.html">nosotros</a>
+                <a href="masInfo.html">Más Info</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="https://www.google.com/" target="_blank">Google</a>
+                <a href="#sectionFormulario">Formulario</a>
+                <a href="#seguros">Seguros</a>
+                <a href="../tablas.html#tablaEjemplo">Tablas</a>
+        
+                <!-- esto es un comentario
+                  esta es una lista desordenada   -->
+                <ul>
+                    <li> <a href="">Inicio</a></li>
+                    <li> <a href="">Galeria</a> </li>
+                    <li> <a href="">nosotros</a></li>
+                    <li> <a href="">Más Info</a></li>
+                    <li> <a href="">Contacto</a></li>
+                </ul>
+
+                <ol>
+                    <li>hervir agua</li>
+                    <li>agarrar saquito de te </li>
+                    <li>colocar en taza, antes que este limpia</li>
+                    <li>azucar</li>
+                    <li>poner agua caliente en la taza</li>
+                    <li>esperar 5 mints</li>
+                </ol>
+
+                <ul>
+                        <li>Computadoras Portatiles
+                            <ul>
+                                <li>Procesador I3</li>
+                                <li>Procesador I5</li>
+                            </ul>
+                        </li>
+                   
+                <li>Computadoras de escritorio</li>
+                    <ul>
+                        <li>Procesador Pentium</li>
+                        <li>Procesador Celeron</li>
+                    </ul>
+
+                </ul>
+             
+            </nav>
+       </header>
+       <main>
+           <section>
+               <h1>Venta de autos</h1>
+               <p> hablar de la venta</p>
+           </section>
+           <section>
+               <h2>Autos disponibles</h2>
+               <img src="" alt="">
+               <img src="" alt="">
+               <img src="" alt="">
+               <img src="" alt="">
+           </section>
+       </main>
+       <section>
+           <p>contenido relacionado</p>
+       </section>
+       <section id="sectionFormulario">
+        <form action="" method="post" enctype="multipart/form"> 
+            <!--
+            <fieldset>
+               <legend>Datos Personales</legend>
+               <label for="">Ingrese su Nombre</label>
+               <input type="text" placeholder="Nombre">
+
+            </fieldset>
+            -->
+            <div>
+                <div>
+                    <input type="text" placeholder="Ingrese su Nombre">
+                    <input type="text" placeholder="Ingrese su Apellido"> 
+                  </div>
+                  <br>
+                 <div>
+                    <input type="email" placeholder="Ingrese su Mail">
+                 </div>
+                 <br>
+                 <div>
+                    <input type="password" placeholder="Ingrese su Contraseña">
+                 </div>
+                 <br>
+                 <div>
+                     <label for="">Acepto terminos y condiciones</label>
+                     <input type="checkbox" value ="yes" name="acepta">
+                     <!--
+                     <label for="">No acepta</label>
+                     <input type="checkbox" value ="no" name="acepta">
+                     <label for="">No responde</label>
+                     <input type="checkbox" value ="sinvalor" name="acepta">
+                     -->
+                 </div>
+                 <br>
+                 <hr>
+                 <div>
+                    <label for="color">que color prefieres?</label>
+                    <div>
+                    <label for="colorRojo">Rojo</label>
+                    <input type="radio" name="color" id="colorRojo">
+                    <label for="colorNegro">Negro</label>
+                    <input type="radio" name="color" id="colorNegro">
+                   </div>
+                  
+                 </div>
+                 <br>
+                 <div>
+                     <label for="talles">Seleccione un talle</label>
+                    <select name="talles">
+                        <option value="L">Large</option>
+                        <option value="M">Medium</option>
+                        <option value="S">Small</option>
+                    </select>
+                 </div>
+                 <br>
+                 <div>
+                     <input type="submit" value="Aceptar">
+                     <input type="reset" value="Limpiar">
+                     <input type="button" value="esto es un boton sin accion">
+                 </div>
+
+            </div>
+
+        </form>
+       </section>
+       <article id="seguros">
+           <h2>Seguros</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quam molestiae quod accusamus pariatur enim repudiandae voluptate excepturi voluptatibus fugiat, aut beatae! Neque reiciendis ut velit possimus quas vitae sunt?</p>
+       </article>
+       <aside>
+           <div class="box__publicidad">
+               <h3>titulo publicidad</h3>
+               <img src="" alt="publicidad">
+               <p>pequeño parrafo valor</p>
+           </div>
+           <div class="box__publicidad">
+                <h3>titulo publicidad</h3>
+                <img src="" alt="publicidad">
+                <p>pequeño parrafo valor</p>
+            </div>
+            <div class="box__publicidad">
+                <h3>titulo publicidad</h3>
+                <img src="" alt="publicidad">
+                <p>pequeño parrafo valor</p>
+            </div>
+            <div class="box__publicidad">
+                <h3>titulo publicidad</h3>
+                <img src="" alt="publicidad">
+                <p>pequeño parrafo valor</p>
+            </div>
+       </aside>
+       <footer>
+           <p>todos los derechos reservados</p>
+       </footer>
+      
+    </body>
+</html>
